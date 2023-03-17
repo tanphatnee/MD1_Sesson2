@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+  <meta charset="UTF-8">
+  <title>market survey</title>
+</head>
+<style>
+  .cents{
+    font-size: 12px;
+    margin-left: 100px;
+  }
+  .dollars{
+    font-size: 12px;
+    margin-left: 15px;
+  }
+</style>
+<body>
+<form>
+  <h3 style="font-size: large">Market Research Survey</h3>
+  <div><p style="color: darkgray">pleas take a few moments to compolete this satisfaction survey.</p></div>
+  <hr style="background-color: antiquewhite">
+
+  <h4> What is your age range?</h4>
+  <div>
+    <select >
+      <option value="18-24">18-24</option>
+      <option value="25-34">25-34</option>
+      <option value="35-50">35-50</option>
+      <option value="50+">50+</option>
+    </select>
+  </div>
+
+  <h4> What is your yearly income range?</h4>
+  <div>
+    <select>
+      <option value="$0 - $25,000">$0 - $25,000</option>
+      <option value="25-34">25-34</option>
+      <option value="35-50">35-50</option>
+      <option value="50+">50+</option>
+    </select>
+  </div>
+  <h4>Gender Identity</h4>
+  <div><input type="radio" name="male">Male</div>
+  <div><input type="radio" name="female">Female</div>
+  <div><input type="radio" name="nonbinary">Nonbinary</div>
+  <div><input type="radio" name="Other">Other</div>
+  <div><input type="text" name="other" style="margin-left: 4%"></div>
+  <label style="font-size: 10px" >maximum of 250 characters</label>
+  <label style="font-size: 10px"> Used 0 characters</label>
+  <div><h4>Which of the following products have your purchased in the last 2 months. Please check all that apply.</h4>
+    <div><input type="checkbox" name="prd1">Product 1</div>
+    <div><input type="checkbox" name="prd2">Product 2</div>
+    <div><input type="checkbox" name="prd3">Product 3</div>
+  </div>
+  <h4>How often would you use our new product?</h4>
+  <div><input type="radio" name="daily">Daily</div>
+  <div><input type="radio" name="Weekly">Weekly</div>
+  <div><input type="radio" name="Monthly">Monthly</div>
+  <label>What would you pay for the new product?</label>
+  <br><span style='font-size:20px;'>$</span>
+  <label class="textdau">
+    <input type="text" size="5px"> - <input type="text" size="5px">
+  </label>
+  <br><label  class="dollars">dollars </label>
+  <label class="cents"> cents</label>
+  <h4>What features would you like to see in the new product.</h4>
+  <textarea rows="4" cols="100%"></textarea>
+</form>
+</body>
+</html>
